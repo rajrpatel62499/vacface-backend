@@ -1,3 +1,7 @@
+// to run this make command: 
+// For Importing : node seeder -i
+// For Deleting : node seeder -d
+
 const fs = require('fs');
 const mongoose = require('mongoose');
 const colors = require('colors');

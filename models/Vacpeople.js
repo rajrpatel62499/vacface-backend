@@ -6,7 +6,7 @@ const vaccineDoseSchema = new mongoose.Schema({
         required: [true, 'Please add a vaccine name']
     },
     date:{
-        type: date,
+        type: String,
         required: [true, 'Please add a vaccine date']
     },
     lotNumber:{
@@ -29,8 +29,7 @@ const VacPeopleSchema = new mongoose.Schema({
         type: String,
         required: [true, 'Please add a faceid']
       },
-      vaccineDoses: vaccineDoseSchema
-
+      vaccineDoses: [vaccineDoseSchema]
     })
 
-    module.exports = mongoose.model('VacPeopleSchema', VacPeopleSchema);
+    module.exports = mongoose.model('VacPeople', VacPeopleSchema);

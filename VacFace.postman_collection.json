@@ -363,14 +363,15 @@
 							}
 						],
 						"url": {
-							"raw": "{{URL}}/api/v1/users",
+							"raw": "{{URL}}/api/v1/vac-people/6c1a31b03cf112caf4231b3a1aafd42c",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"api",
 								"v1",
-								"users"
+								"vac-people",
+								"6c1a31b03cf112caf4231b3a1aafd42c"
 							]
 						},
 						"description": "Get all users (admin)"
@@ -586,6 +587,31 @@
 							""
 						]
 					}
+				}
+			]
+		},
+		{
+			"name": "VacPeople",
+			"item": [
+				{
+					"name": "get vaccine details by faceId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/v1/vac-people/d775c1db22ae162c82c2a62c6a095b58",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"vac-people",
+								"d775c1db22ae162c82c2a62c6a095b58"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		}

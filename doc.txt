@@ -1,0 +1,1 @@
+docgen build -i postman_collection.json -o index.html

@@ -1,7 +1,7 @@
 {
-  "name": "devcamper_api",
+  "name": "vac_face_api",
   "version": "1.0.0",
-  "description": "Devcamper backend API",
+  "description": "Vac Face Backend API",
   "main": "server.js",
   "scripts": {
     "start": "node server",
@@ -10,7 +10,7 @@
   "engines": {
     "node": "14.16.1"
   },
-  "author": "Brad Traversy",
+  "author": "Rajkumar Patel",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",

@@ -3,7 +3,7 @@ const {
   getVaccineDetailsByFaceId
 } = require('../controllers/vacpeople');
 
-// const VacPeople = require('../models/vacpeople');
+// const VacPeople = require('../models/VacPeople');
 
 const router = express.Router({ mergeParams: true });
 

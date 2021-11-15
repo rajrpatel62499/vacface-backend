@@ -25,6 +25,7 @@ connectDB();
 // const courses = require('./routes/courses');
 const auth = require('./routes/auth');
 const users = require('./routes/users');
+const vacpeople = require('./routes/vacpeople');
 // const reviews = require('./routes/reviews');
 
 const app = express();
@@ -72,6 +73,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // app.use('/api/v1/courses', courses);
 app.use('/api/v1/auth', auth);
 app.use('/api/v1/users', users);
+app.use('/api/v1/vac-people', vacpeople);
 // app.use('/api/v1/reviews', reviews);
 
 app.use(errorHandler);

@@ -25,6 +25,9 @@ const VacPeopleSchema = new mongoose.Schema({
         type: String,
         required: [true, 'Please add a full name']
       },
+      status: {
+        type: String,
+      },
       faceId: {
         type: String,
         required: [true, 'Please add a faceid']

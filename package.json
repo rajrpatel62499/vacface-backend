@@ -4,8 +4,11 @@
   "description": "Devcamper backend API",
   "main": "server.js",
   "scripts": {
-    "start": "NODE_ENV=production node server",
+    "start": "node server",
     "dev": "nodemon server"
+  },
+  "engines": {
+    "node": "14.16.1"
   },
   "author": "Brad Traversy",
   "license": "MIT",

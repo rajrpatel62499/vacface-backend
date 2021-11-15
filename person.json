@@ -3,6 +3,7 @@
       "dateOfBirth" : "1972-01-22",
       "fullName" : "Amir",
       "faceId" : "d9cad8113495924deb71866fdf20f592",
+      "status" : "FULLY_VACCINATED",
       "vaccineDoses": [
         {
           "vaccineName": "AstraZeneca",
@@ -20,23 +21,14 @@
       "dateOfBirth" : "1970-05-12",
       "fullName" : "Akshay",
       "faceId" : "13277a9fa5f57a62e12448cc8a720693",
-      "vaccineDoses": [
-        {
-          "vaccineName": "AstraZeneca",
-          "date": "2021-03-28",
-          "lotNumber": "741648"
-        },
-        {
-          "vaccineName": "AstraZeneca",
-          "date": "2021-06-30",
-          "lotNumber": "798184"
-        }
-      ]
+      "status" : "NOT_VACCINATED",
+      "vaccineDoses": []
     },
     {
       "dateOfBirth" : "1999-06-11",
       "fullName" : "Alia",
       "faceId" : "c77c44564de4b43738e195c547e68d16",
+      "status" : "FULLY_VACCINATED",
       "vaccineDoses": [
         {
           "vaccineName": "Pfizer",
@@ -54,16 +46,12 @@
       "dateOfBirth" : "1960-02-12",
       "fullName" : "Amitabh",
       "faceId" : "dc1eeec115d614d8745e7503987fcbc9",
+      "status" : "PARTIALLY_VACCINATED",
       "vaccineDoses": [
         {
           "vaccineName": "AstraZeneca",
           "date": "2021-03-04",
           "lotNumber": "600648"
-        },
-        {
-          "vaccineName": "AstraZeneca",
-          "date": "2021-06-10",
-          "lotNumber": "653184"
         }
       ]
     },
@@ -71,23 +59,14 @@
       "dateOfBirth" : "1975-05-23",
       "fullName" : "Hritik",
       "faceId" : "6c1a31b03cf112caf4231b3a1aafd42c",
-      "vaccineDoses": [
-        {
-          "vaccineName": "Pfizer",
-          "date": "2021-03-28",
-          "lotNumber": "400648"
-        },
-        {
-          "vaccineName": "Pfizer",
-          "date": "2021-05-01",
-          "lotNumber": "451184"
-        }
-      ]
+      "status" : "NOT_VACCINATED",
+      "vaccineDoses": []
     },
     {
       "dateOfBirth" : "1982-05-22",
       "fullName" : "Kareena",
       "faceId" : "d775c1db22ae162c82c2a62c6a095b58",
+      "status" : "FULLY_VACCINATED",
       "vaccineDoses": [
         {
           "vaccineName": "AstraZeneca",
@@ -105,23 +84,14 @@
       "dateOfBirth" : "1995-03-12",
       "fullName" : "Kriti",
       "faceId" : "c937e97caac871dc9c6a9fbb81adc028",
-      "vaccineDoses": [
-        {
-          "vaccineName": "AstraZeneca",
-          "date": "2021-06-15",
-          "lotNumber": "620648"
-        },
-        {
-          "vaccineName": "AstraZeneca",
-          "date": "2021-09-20",
-          "lotNumber": "675184"
-        }
-      ]
+      "status" : "NOT_VACCINATED",
+      "vaccineDoses": []
     },
     {
       "dateOfBirth" : "1969-07-05",
       "fullName" : "Salman",
       "faceId" : "9053b9da50c608a5022d5f5f4c8763d6",
+      "status" : "PARTIALLY_VACCINATED",
       "vaccineDoses": [
         {
           "vaccineName": "Pfizer",
@@ -134,6 +104,7 @@
       "dateOfBirth" : "1967-08-09",
       "fullName" : "Shahrukh",
       "faceId" : "1ad24f20921d0c409ae922cb5746b14c",
+      "status" : "FULLY_VACCINATED",
       "vaccineDoses": [
         {
           "vaccineName": "Moderna",
@@ -151,6 +122,7 @@
       "dateOfBirth" : "1973-01-10",
       "fullName" : "Saif Ali khan",
       "faceId" : "72056b0df88ab5cdc0866b9c56f26966",
+      "status" : "FULLY_VACCINATED",
       "vaccineDoses": [
         {
           "vaccineName": "Moderna",
@@ -168,16 +140,12 @@
       "dateOfBirth" : "1998-01-11",
       "fullName" : "Jigar",
       "faceId" : "6022d052cce8924ff2d1363c1eeafdff",
+      "status" : "PARTIALLY_VACCINATED",
       "vaccineDoses": [
         {
           "vaccineName": "AstraZeneca",
           "date": "2021-05-02",
           "lotNumber": "630648"
-        },
-        {
-          "vaccineName": "AstraZeneca",
-          "date": "2021-08-05",
-          "lotNumber": "728184"
         }
       ]
     }   

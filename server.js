@@ -15,7 +15,7 @@ const errorHandler = require('./middleware/error');
 const connectDB = require('./config/db');
 
 // Load env vars
-dotenv.config({ path: './config/config.env' });
+dotenv.config({ path: path.join(__dirname, 'config/config.env') });
 
 // Connect to database
 connectDB();
@@ -25,7 +25,7 @@ connectDB();
 // const courses = require('./routes/courses');
 const auth = require('./routes/auth');
 const users = require('./routes/users');
-const vacpeople = require('./routes/vacpeople');
+const vacpeople = require(path.join(__dirname, 'routes/vacpeople'));
 // const reviews = require('./routes/reviews');
 
 const app = express();

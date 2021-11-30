@@ -1,6 +1,6 @@
-# DevCamper API
+# VacFace API
 
-> Backend API for DevCamper application, which is a bootcamp directory website
+> Backend API for VacFace application, which is a bootcamp directory website
 
 ## Usage
 
@@ -36,10 +36,10 @@ node seeder -i
 
 ## Demo
 
-The API is live at [devcamper.io](https://devcamper.io)
+The API is live at [https://vac-face.herokuapp.com/](https://vac-face.herokuapp.com/)
 
-Extensive documentation with examples [here](https://documenter.getpostman.com/view/8923145/SVtVVTzd?version=latest)
+<!-- Extensive documentation with examples [here](https://documenter.getpostman.com/view/8923145/SVtVVTzd?version=latest) -->
 
 - Version: 1.0.0
 - License: MIT
-- Author: Brad Traversy
+- Author: Rajkumar Patel

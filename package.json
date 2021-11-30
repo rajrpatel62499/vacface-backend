@@ -1,10 +1,10 @@
 {
-  "name": "devcamper_api",
+  "name": "vac-face",
   "version": "1.0.0",
-  "description": "Devcamper backend API",
+  "description": "VacFace Backend api",
   "main": "server.js",
   "scripts": {
-    "start": "NODE_ENV=production node server",
+    "start": "node server",
     "dev": "nodemon server"
   },
   "author": "Brad Traversy",

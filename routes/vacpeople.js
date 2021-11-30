@@ -3,9 +3,7 @@ const {
   getVaccineDetailsByFaceId
 } = require('../controllers/vacpeoples');
 
-// const VacPeople = require('../models/VacPeople');
-
-const router = express.Router({ mergeParams: true });
+const router = express.Router();
 
 router.route("/:faceId").get(getVaccineDetailsByFaceId);
 

@@ -35,4 +35,4 @@ const VacPeopleSchema = new mongoose.Schema({
       vaccineDoses: [vaccineDoseSchema]
     })
 
-    module.exports = mongoose.model('VacPeople', VacPeopleSchema);
+module.exports = mongoose.model('VacPeople', VacPeopleSchema);

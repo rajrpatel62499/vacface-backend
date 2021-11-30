@@ -1,1 +1,1 @@
-docgen build -i postman_collection.json -o index.html
+docgen build -i .\VacFace.postman_collection.json -o public/index.html
